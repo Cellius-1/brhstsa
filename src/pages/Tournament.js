@@ -41,7 +41,7 @@ const Tournament = () => {
     {
       icon: <FiCalendar />,
       title: "Date & Time",
-      info: "October 3, 2025",
+      info: "October 10, 2025",
       description: "Mark your calendars for this exciting competition",
       image: process.env.PUBLIC_URL + "/assets/tournament/calendar.jpg"
     },
@@ -104,7 +104,7 @@ const Tournament = () => {
           <div className="hero-badges">
             <div className="hero-badge">
               <FiCalendar />
-              <span>October 3, 2025</span>
+              <span>October 10, 2025</span>
             </div>
             <div className="hero-badge">
               <FiMapPin />
