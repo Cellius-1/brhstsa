@@ -39,8 +39,9 @@ const Team = () => {
       gradient: "linear-gradient(165deg, #ff6b00, #000)",
     },
     {
-      image: process.env.PUBLIC_URL + "/assets/team/mohnish.png",
-      title: "Mohnish Gumedelli",
+      image: process.env.PUBLIC_URL + "/assets/team/arnav.png",
+      imagePosition: "62% center",
+      title: "Arnav Dham",
       subtitle: "Vice President",
       handle: "Sophomore",
       borderColor: "#10B981",
