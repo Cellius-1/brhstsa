@@ -1,5 +1,5 @@
-import { motion, useAnimation, useMotionValue } from "framer-motion";
-import { useState, useRef, useCallback } from "react";
+import { motion } from "framer-motion";
+import { useState, useCallback } from "react";
 import "./Stack.css";
 
 const Stack = ({

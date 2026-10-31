@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import RotatingText from '../components/ReactBits/RotatingText';
 import CountUp from '../components/ReactBits/CountUp';
 import SpotlightCard from '../components/ReactBits/SpotlightCard';
-import Dock from '../components/ReactBits/Dock';
 import BlurText from '../components/ReactBits/BlurText';
 import GradientText from '../components/ReactBits/GradientText';
 import ShinyText from '../components/ReactBits/ShinyText';

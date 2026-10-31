@@ -1,19 +1,17 @@
 import React from 'react';
-import FlowingMenu from '../components/ReactBits/FlowingMenu';
 import GradientText from '../components/ReactBits/GradientText';
 import BlurText from '../components/ReactBits/BlurText';
 import SpotlightCard from '../components/ReactBits/SpotlightCard';
 import Waves from '../components/ReactBits/Waves';
 import CardSwap from '../components/ReactBits/CardSwap';
 import FlyingPosters from '../components/ReactBits/FlyingPosters';
-import ElasticSlider from '../components/ReactBits/ElasticSlider';
-import DecayCard from '../components/ReactBits/DecayCard';
 import GooeyNav from '../components/ReactBits/GooeyNav';
 import InfiniteMenu from '../components/ReactBits/InfiniteMenu';
 import { FiCalendar, FiMapPin, FiClock, FiUsers, FiFileText, FiExternalLink } from 'react-icons/fi';
 import './Meetings.css';
 
 const Meetings = () => {
+  // eslint-disable-next-line no-unused-vars
   const competitionLevels = [
     {
       link: '#regional',

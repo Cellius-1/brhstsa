@@ -1,12 +1,11 @@
 import { useRef, useEffect, useCallback, useState } from "react";
-import { gsap } from "gsap";
 import GradientText from './GradientText';
 import './FeatureCards.css';
 
 const ParticleCard = ({ children, className = "", disableAnimations = false }) => {
   const cardRef = useRef(null);
   const canvasRef = useRef(null);
-  const [particles, setParticles] = useState([]);
+  const [, setParticles] = useState([]);
 
   const createParticles = useCallback(() => {
     if (disableAnimations) return;

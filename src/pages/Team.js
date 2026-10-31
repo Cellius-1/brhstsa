@@ -2,13 +2,8 @@ import React from 'react';
 import GradientText from '../components/ReactBits/GradientText';
 import BlurText from '../components/ReactBits/BlurText';
 import CountUp from '../components/ReactBits/CountUp';
-import ShinyText from '../components/ReactBits/ShinyText';
 import ChromaGrid from '../components/ReactBits/ChromaGrid';
 import Particles from '../components/ReactBits/Particles';
-import ScrollStack from '../components/ReactBits/ScrollStack';
-import BounceCards from '../components/ReactBits/BounceCards';
-import ProfileCard from '../components/ReactBits/ProfileCard';
-import Folder from '../components/ReactBits/Folder';
 import SpotlightCard from '../components/ReactBits/SpotlightCard';
 import './Team.css';
 
@@ -104,6 +99,7 @@ const Team = () => {
     }
   ];
 
+  // eslint-disable-next-line no-unused-vars
   const achievements = [
     'State Championship 2023 - 1st Place in Cybersecurity',
     'National Competition Qualifier - Top 10 in Engineering Design',
@@ -112,6 +108,7 @@ const Team = () => {
     'Innovation Award - Best Technology Project 2023'
   ];
 
+  // eslint-disable-next-line no-unused-vars
   const scrollStackItems = [
     {
       content: (
@@ -139,6 +136,7 @@ const Team = () => {
     }
   ];
 
+  // eslint-disable-next-line no-unused-vars
   const bounceImages = [
     "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300",
     "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=300",

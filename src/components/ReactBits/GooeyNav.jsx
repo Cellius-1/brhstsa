@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from "react";
+import { useState } from "react";
 import "./GooeyNav.css";
 
 const GooeyNav = ({

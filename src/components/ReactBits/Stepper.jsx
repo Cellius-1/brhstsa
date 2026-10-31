@@ -15,7 +15,7 @@ export default function Stepper({
 }) {
   const [currentStep, setCurrentStep] = useState(initialStep);
   const [direction, setDirection] = useState(1);
-  const [containerHeight, setContainerHeight] = useState("auto");
+  const [, setContainerHeight] = useState("auto");
   const contentRef = useRef(null);
 
   const steps = Children.toArray(children);

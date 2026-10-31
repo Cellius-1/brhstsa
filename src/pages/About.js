@@ -2,16 +2,8 @@ import React from 'react';
 import SpotlightCard from '../components/ReactBits/SpotlightCard';
 import GradientText from '../components/ReactBits/GradientText';
 import BlurText from '../components/ReactBits/BlurText';
-import AnimatedList from '../components/ReactBits/AnimatedList';
 import Stepper, { Step } from '../components/ReactBits/Stepper';
-import Stack from '../components/ReactBits/Stack';
-import FeatureCards from '../components/ReactBits/FeatureCards';
-import ChromaGrid from '../components/ReactBits/ChromaGrid';
 import MagicBento from '../components/ReactBits/MagicBento';
-import Masonry from '../components/ReactBits/Masonry';
-import Particles from '../components/ReactBits/Particles';
-import DarkVeil from '../components/ReactBits/DarkVeil';
-import ElasticSlider from '../components/ReactBits/ElasticSlider';
 import CountUp from '../components/ReactBits/CountUp';
 import { FiExternalLink, FiMapPin, FiCalendar, FiAward, FiUsers, FiTarget, FiTrendingUp, FiCode, FiGlobe, FiHeart, FiBook, FiZap, FiStar, FiCheckCircle, FiClock } from 'react-icons/fi';
 import './About.css';
@@ -229,6 +221,7 @@ const About = () => {
     }
   ];
 
+  // eslint-disable-next-line no-unused-vars
   const missionPoints = [
     {
       icon: <FiTarget />,
@@ -252,6 +245,7 @@ const About = () => {
     }
   ];
 
+  // eslint-disable-next-line no-unused-vars
   const teamHighlights = [
     {
       id: 1,
@@ -349,6 +343,7 @@ const About = () => {
     }
   ];
 
+  // eslint-disable-next-line no-unused-vars
   const eventCategories = [
     {
       title: "Architecture & Construction",
