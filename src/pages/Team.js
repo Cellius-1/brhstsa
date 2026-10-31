@@ -13,7 +13,7 @@ const Team = () => {
       image: process.env.PUBLIC_URL + "/assets/team/anvay.png",
       title: "Anvay Ajmera",
       subtitle: "Co-President",
-      handle: "Junior",
+      handle: "Senior",
       borderColor: "#8400ff",
       gradient: "linear-gradient(145deg, #8400ff, #000)",
     },
@@ -21,7 +21,7 @@ const Team = () => {
       image: process.env.PUBLIC_URL + "/assets/team/vk.png",
       title: "Vrishank Madishetty",
       subtitle: "Co-President",
-      handle: "Junior",
+      handle: "Senior",
       borderColor: "#00c1ff",
       gradient: "linear-gradient(180deg, #00c1ff, #000)",
     },
@@ -29,7 +29,7 @@ const Team = () => {
       image: process.env.PUBLIC_URL + "/assets/team/tharun.png",
       title: "Tharun Naguleswaran",
       subtitle: "Vice President",
-      handle: "Sophomore",
+      handle: "Junior",
       borderColor: "#ff6b00",
       gradient: "linear-gradient(165deg, #ff6b00, #000)",
     },
@@ -38,7 +38,7 @@ const Team = () => {
       imagePosition: "62% center",
       title: "Arnav Dham",
       subtitle: "Vice President",
-      handle: "Sophomore",
+      handle: "Senior",
       borderColor: "#10B981",
       gradient: "linear-gradient(210deg, #10B981, #000)",
     },
@@ -46,7 +46,7 @@ const Team = () => {
       image: process.env.PUBLIC_URL + "/assets/team/priyanka.png",
       title: "Priyanka Kumar",
       subtitle: "Treasurer",
-      handle: "Junior",
+      handle: "Senior",
       borderColor: "#EF4444",
       gradient: "linear-gradient(195deg, #EF4444, #000)",
     },
@@ -54,23 +54,15 @@ const Team = () => {
       image: process.env.PUBLIC_URL + "/assets/team/anaya.png",
       title: "Anaya Tejani",
       subtitle: "Secretary",
-      handle: "Junior",
+      handle: "Senior",
       borderColor: "#8B5CF6",
       gradient: "linear-gradient(225deg, #8B5CF6, #000)",
-    },
-    {
-      image: process.env.PUBLIC_URL + "/assets/team/nish.png",
-      title: "Nish Brahmbhatt",
-      subtitle: "Outreach",
-      handle: "Senior",
-      borderColor: "#F59E0B",
-      gradient: "linear-gradient(135deg, #F59E0B, #000)",
     },
     {
       image: process.env.PUBLIC_URL + "/assets/team/jadon.png",
       title: "Jadon Kim",
       subtitle: "Fundraising",
-      handle: "Junior",
+      handle: "Senior",
       borderColor: "#06B6D4",
       gradient: "linear-gradient(255deg, #06B6D4, #000)",
     },
@@ -285,7 +277,7 @@ const Team = () => {
           <div className="team-stats">
             <SpotlightCard className="stat-card" spotlightColor="rgba(132, 0, 255, 0.3)">
               <CountUp
-                to={8}
+                to={7}
                 from={0}
                 duration={2}
                 delay={0.5}
